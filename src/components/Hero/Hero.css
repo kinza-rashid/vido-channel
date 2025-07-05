@@ -1,0 +1,33 @@
+.bannerImage{
+height: 550px;
+width: 100%;
+}
+
+.heroButtons{
+    display: flex;
+    gap: 10px;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+
+.bannerImage .btn1{
+    cursor: pointer;
+    margin-bottom: 160px;
+    height: 40px;
+    width: 80px;
+     color: #fff;
+    background-color:#6d6d6eb3;
+}
+.bannerImage .btn0{
+    cursor: pointer;
+    margin-bottom: 150px;
+    height: 30px;
+    width: 60px;
+}
+
+.btn1 .btn0:hover{
+    background: #acacacbf;
+}
+.btn1:hover{
+    background: #6d6d6e66;
+}

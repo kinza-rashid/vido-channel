@@ -1,0 +1,109 @@
+.logoimage{
+    width: 90px;
+    height: auto;
+}
+.icons{
+    width: 40px;
+    height: auto;
+}
+.profile{
+    height: auto ;
+    width: 40px;
+}
+.NavBar{
+   
+    width: 90%;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    position: fixed;
+    
+  
+    font-size: 14px;
+    color: #e5e5e5;
+    background-image: linear-gradient(100deg , rgba (0,0,0,0.7) , 10% , transparent);
+    height: 100px;
+    
+   
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   
+    float: left;
+   
+      
+   
+}
+.navbar-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   padding-right: 30px;
+   margin-top: 15px;
+     
+  
+  
+   float: right;
+
+ 
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+ 
+}
+li{
+    cursor: pointer;
+}
+
+.navbar-right .icons{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.navbar-right .profile{
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    
+}
+.navbar-right .profile:hover{
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+
+.navbar-right .profile:hover + .dropdown{
+   display: block;
+}
+.mainDiv{
+    background-color: rgb(1, 1, 1);
+   
+}
+.dropdown{
+    display: none;
+}
+.navbar-right .logout-btn{
+   
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(252, 252, 252);
+     border: solid rgb(255, 255, 255) 1px;
+    color: black;
+}
+.navbar-right .logout-btn:hover{
+   
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: solid red 1px;
+    color: rgb(40, 40, 40);
+}

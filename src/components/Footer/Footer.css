@@ -1,0 +1,41 @@
+.img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.Footer{
+    padding: 30px , 4px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+   
+
+}
+.Footer .footer_icons{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+
+
+.Footer ul li{
+    padding: 5px;
+}
+
+.footer_block1{
+    margin-left: -40px;
+
+}
+.footer_block2{
+    margin-left: 90px;
+
+}
+.copyrightText{
+padding-top: 40px;
+padding-bottom: 40px;
+text-align: center;
+color: grey;
+}
